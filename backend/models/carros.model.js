@@ -2,11 +2,11 @@
 import{schema, model} from "mongose";
 
 const Eschemas = new Schema({
-    name:{
+    carro:{
         type:String
     },
-    Edad:{
+    Kilometraje:{
         type:Number
     }
 })
-export const Modelo = new model("Tabla de alumnos", Eschema)
+export const Modelo = new model("Tabla de carros", Eschema)
